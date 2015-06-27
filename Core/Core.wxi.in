@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Include>
+	<Fragment>
+    <ComponentGroup Id="CoreComponents">
+      <Component Id="CorePlugin" Directory="INSTALLFOLDER" Guid="C7DF65CB-EF10-4532-8FB3-837687C5FF2C" Win64="yes">
+        <File Id="CoreDLL" Source="$(var.CvisSourceDir)\${TARGETNAME}.dll" KeyPath="yes" />
+      </Component>
+    </ComponentGroup>
+	</Fragment>
+</Include>

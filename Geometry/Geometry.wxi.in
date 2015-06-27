@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Include>
+	<Fragment>
+    <ComponentGroup Id="GeometryComponents">
+      <Component Id="GeometryPlugin" Directory="INSTALLFOLDER" Guid="E4A789AD-B23C-46CA-9EB7-73F56924D4C0" Win64="yes">
+        <File Id="GeometryDLL" KeyPath="yes" Source="$(var.CvisSourceDir)\${TARGETNAME}.dll" />
+      </Component>
+    </ComponentGroup>
+	</Fragment>
+</Include>

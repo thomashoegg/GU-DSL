@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Include>
+	<Fragment>
+    <ComponentGroup Id="ViewerComponents">
+      <Component Id="ViewerPlugin" Directory="INSTALLFOLDER" Guid="A81950C2-D0BC-4742-A996-F8D99015D0DD" Win64="yes">
+        <File Id="ViewerDLL" KeyPath="yes" Source="$(var.CvisSourceDir)\${TARGETNAME}.dll" />
+      </Component>
+    </ComponentGroup>
+	</Fragment>
+</Include>

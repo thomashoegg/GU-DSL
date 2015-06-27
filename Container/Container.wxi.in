@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Include>
+  <Fragment>
+    <ComponentGroup Id="ContainerComponents">
+      <Component Id="ContainerPlugin" Directory="INSTALLFOLDER" Guid="12825CEE-3528-4161-B522-01D0A42F559E" Win64="yes">
+        <File Id="ContainerDLL" KeyPath="yes" Source="$(var.CvisSourceDir)\${TARGETNAME}.dll" />
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+</Include>
