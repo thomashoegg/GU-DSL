@@ -1,0 +1,17 @@
+*.txt
+*.bin
+*.c
+*.exe
+*.vcxproj
+*.tlog
+*.obj
+*.lastbuildstate
+*.log
+*.check_cache
+*.cpp_parameters
+*.wxi
+CMakeFiles/2.8.12.2/CMakeCCompiler.cmake
+CMakeFiles/2.8.12.2/CMakeCXXCompiler.cmake
+CMakeFiles/2.8.12.2/CMakeRCCompiler.cmake
+CMakeFiles/2.8.12.2/CMakeSystem.cmake
+CMakeFiles/2.8.12.2/CompilerIdCXX/CMakeCXXCompilerId.cpp
